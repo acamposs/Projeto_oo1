@@ -1,4 +1,4 @@
-package projeto_OO.Model;
+package Model;
 
 public class Medicamento extends Produto{
     
