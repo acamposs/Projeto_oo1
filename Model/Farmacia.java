@@ -11,6 +11,7 @@ public class Farmacia {
     
         this.nomeFarmacia = nomeFarmacia;
         this.listaProdutos = listaProdutos;
+        this.setListaProdutos(listaProdutos);
 
     }
 
@@ -21,10 +22,20 @@ public class Farmacia {
     public void setNomeFarmacia(String nomeFarmacia) {
         this.nomeFarmacia = nomeFarmacia;
     }
-    public ArrayList<Produto> getListaProdutos() {
+
+    public ArrayList <Produto> getListaProdutos() {
         return listaProdutos;
     }
-    public void setListaProdutos(ArrayList<Produto> listaProdutos) {
+
+    public void adicionarProdutos(Produto produto){
+		listaProdutos.add(produto);	
+	}
+	
+	public void removerProdutos(Produto produto) {
+		this.listaProdutos.remove(produto);			
+	}
+
+    public void setListaProdutos(ArrayList <Produto> listaProdutos) {
         this.listaProdutos = listaProdutos;
     }
 
