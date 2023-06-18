@@ -56,5 +56,9 @@ public abstract class Produto {
         + ", Preço = R$ " + valor;
     }
 
+
+    public void setPreco(double novoPreco) {
+    }
+
   
 }

@@ -1,11 +1,12 @@
 package Model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Farmacia {
 
     private String nomeFarmacia;
-    private ArrayList <Produto> listaProdutos = new ArrayList <Produto> ();
+    public ArrayList <Produto> listaProdutos = new ArrayList <Produto> ();
 
     public Farmacia(String nomeFarmacia, ArrayList<Produto> listaProdutos) {
     
@@ -13,6 +14,9 @@ public class Farmacia {
         this.listaProdutos = listaProdutos;
         this.setListaProdutos(listaProdutos);
 
+    }
+
+    public Farmacia() {
     }
 
     public String getNomeFarmacia() {
@@ -34,6 +38,7 @@ public class Farmacia {
 	public void removerProdutos(Produto produto) {
 		this.listaProdutos.remove(produto);			
 	}
+
 
     public void setListaProdutos(ArrayList <Produto> listaProdutos) {
         this.listaProdutos = listaProdutos;
