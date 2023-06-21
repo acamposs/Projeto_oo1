@@ -1,7 +1,6 @@
 package view;
 
 import java.awt.event.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.awt.*;
 import javax.swing.*;
@@ -16,7 +15,7 @@ public class TelaFarmacia {
 
     private static JFrame janela = new JFrame("Farmacia da Márcia");
     private Farmacia farmacia;
-    private Produto produto;
+
 
     public TelaFarmacia() {
 		this.farmacia = new Farmacia(); 
@@ -78,7 +77,7 @@ public class TelaFarmacia {
                 Medicamento paracetamol = new Medicamento("Paracetamol", "30/09/2024", "neo quimica", 5.90, "febre e dor", "750mg" , "oral");
                 Medicamento dipirona = new Medicamento("Dipirona Sódica", "30/09/2024", "neo quimica", 16.9, "febre e dor", "1g" , "oral");
                 Medicamento benegrip = new Medicamento("Benegrip", "30/09/2024", "Hypera", 19.90, "Sintomas de gripe", "500mg" , "oral");
-                Cosmetico laRoche = new Cosmetico("La Roche-Posay Effaclar Concentrado", "30/09/2024", "La Roche-Posay", 79.90, "gel de limpeza", "Rosto");
+                Cosmetico laRoche = new Cosmetico("La Roche-Posay ", "30/09/2024", "La Roche-Posay", 79.90, "gel de limpeza", "Rosto");
                 Cosmetico vichy = new Cosmetico("Vichy Ideal Soleil Clarify", "30/09/2024", "Vichy", 99.90, "Protetor Solar Facial FPS60", "Rosto");
                 Cosmetico carmed = new Cosmetico("Carmed Fini Beijos", "30/09/2024", " Carmed", 25.90, "Protetor Labial ", "Labios");
                 ArrayList <Produto> listaProdutos = farmacia.getListaProdutos();
@@ -89,13 +88,14 @@ public class TelaFarmacia {
                 farmacia.adicionarProdutos(vichy);
                 farmacia.adicionarProdutos(carmed);
 
-
             //criando a lista e adicionando na janela
                 JPanel painelProdutos = new JPanel(new GridLayout(0, 2));
                 for (Produto produto : listaProdutos) {
                     JLabel label = new JLabel(produto.getNomeProduto());
+                    label.setHorizontalAlignment(SwingConstants.CENTER); // Define o alinhamento central
                     painelProdutos.add(label);
                 }
+            
 
 		// Determinando tamanho dos ícones e personalização dos componentes
             logo.setBounds(10, 20, 290, 60);
@@ -106,6 +106,8 @@ public class TelaFarmacia {
             campoPesquisa.setForeground(Color.GRAY);
             campoPesquisa.setBorder(bordaPersonalizada); 
             painelProdutos.setBounds(20, 170, 390, 330);
+            painelProdutos.setBackground(Color.WHITE);
+            painelProdutos.setBorder(bordaPersonalizada);
 
             busca.setBounds(335, 110, 80, 40);
             busca.setBackground(Color.WHITE);
@@ -146,7 +148,7 @@ public class TelaFarmacia {
             janela.add(medicamento);
             janela.add(cosmetico);
             janela.add(administrador);
-            janela.add(painelProdutos);
+            janela.add( painelProdutos);
 
 
 		// Determinando tamanho padrão da janela
@@ -206,6 +208,14 @@ public class TelaFarmacia {
                     }
                 });
             
+            //Ação do botão de menu
+                menu.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                    
+                    TelaFarmacia menu = new TelaFarmacia();		
+                }
+            });
+
             //Ação do botão de admnistrador 
                 administrador.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {

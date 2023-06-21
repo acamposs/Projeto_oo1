@@ -89,7 +89,7 @@ public class TelaProduto {
                 seleciona.setFont(fonteBotton);
                 seleciona.setForeground(Color.GRAY);
                 seleciona.setBounds(40, 80, 200, 50);
-                tipoProdutoComboBox.setBounds(50,125, 300, 20);
+                tipoProdutoComboBox.setBounds(65,130, 300, 20);
                 tipoProdutoComboBox.setBackground(Color.WHITE);
                 tipoProdutoComboBox.setFont(fonteTexto);
                 nomeProdutoLabel.setBounds(30, 80, 150, 25);
@@ -219,6 +219,8 @@ public class TelaProduto {
             janela.getContentPane().setBackground(Color.WHITE);
             janela.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             janela.setVisible(true);
+
+          
     }
     
     public void cadastrarProduto() {

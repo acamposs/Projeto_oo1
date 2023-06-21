@@ -4,11 +4,8 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.List;
 
-import Model.Produto;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.FlowLayout;
@@ -157,10 +154,17 @@ public class TelaCadastraProduto {
             janela.getContentPane().setBackground(Color.WHITE);
             janela.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             janela.setVisible(true);
-}
+
+
+        }
+
+
 
 private void cadastraProduto() {
     TelaProduto janelaProduto = new TelaProduto();
+    String nomeProduto = "Novo Produto";
+    modelProdutos.addElement(nomeProduto);
+
 
 }
 
@@ -172,9 +176,7 @@ private void removerProduto() {
 }
 
 private void editaProduto () { 
-	    String nomeProduto = "Novo Produto";
-        modelProdutos.addElement(nomeProduto);
-
+	TelaDetalhesProduto detalhaProduto = new TelaDetalhesProduto();    
 }
 
 
