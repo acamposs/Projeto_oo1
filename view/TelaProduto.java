@@ -14,7 +14,7 @@ import java.awt.*;
 
 
 public class TelaProduto {
-    private static JFrame janela = new JFrame("Produto");
+    private static JFrame janela = new JFrame("CadastraProdutos");
     private static JLabel titulo = new JLabel("Cadastrar um novo produto");
     private JTextField nomeProdutoTextField;
     DefaultListModel<String> listModel;

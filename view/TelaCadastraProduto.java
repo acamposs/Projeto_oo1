@@ -176,7 +176,7 @@ private void removerProduto() {
 }
 
 private void editaProduto () { 
-	TelaDetalhesProduto detalhaProduto = new TelaDetalhesProduto();    
+	TelaEditaProduto detalhaProduto = new TelaEditaProduto();    
 }
 
 
