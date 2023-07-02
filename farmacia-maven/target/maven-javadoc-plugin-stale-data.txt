@@ -1,0 +1,67 @@
+@options
+@packages
+-classpath
+'/home/caio-lelis/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/home/caio-lelis/.m2/repository/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar:/home/caio-lelis/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/caio-lelis/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/caio-lelis/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar:/home/caio-lelis/.m2/repository/net/bytebuddy/byte-buddy/1.8.17/byte-buddy-1.8.17.jar:/home/caio-lelis/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/caio-lelis/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/caio-lelis/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/caio-lelis/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/caio-lelis/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/caio-lelis/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/caio-lelis/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar:/home/caio-lelis/.m2/repository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar:/home/caio-lelis/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/caio-lelis/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/caio-lelis/projetoOO/farmacia-maven/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'farmacia-maven 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/caio-lelis/projetoOO/farmacia-maven/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'farmacia-maven 1.0.0 API'
+br.com.farmacia.farmaciamaven.services.interfaces
+br.com.farmacia.farmaciamaven.services.impl
+br.com.farmacia.farmaciamaven.Model
+br.com.farmacia.farmaciamaven.utils
+br.com.farmacia.farmaciamaven.view
+/home/caio-lelis/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar = 1687698259696
+/home/caio-lelis/.m2/repository/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar = 1687698260108
+/home/caio-lelis/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar = 1687698260164
+/home/caio-lelis/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar = 1687698260280
+/home/caio-lelis/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar = 1687698260444
+/home/caio-lelis/.m2/repository/net/bytebuddy/byte-buddy/1.8.17/byte-buddy-1.8.17.jar = 1687698260632
+/home/caio-lelis/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar = 1687698260716
+/home/caio-lelis/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar = 1687698260792
+/home/caio-lelis/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar = 1687698260864
+/home/caio-lelis/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar = 1687698260920
+/home/caio-lelis/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar = 1687698260972
+/home/caio-lelis/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar = 1687698261032
+/home/caio-lelis/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar = 1687698261096
+/home/caio-lelis/.m2/repository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar = 1687698261252
+/home/caio-lelis/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar = 1687698261424
+/home/caio-lelis/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar = 1687698261496
+/home/caio-lelis/projetoOO/farmacia-maven/src/main/java = 1688252290365
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/member-search-index.js = 1688259542753
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/allclasses-index.html = 1688259542749
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/package-search-index.js = 1688259542749
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/allpackages-index.html = 1688259542749
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/jquery-ui.overrides.css = 1688259542781
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/help-doc.html = 1688259542777
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/overview-summary.html = 1688259542773
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/module-search-index.js = 1688259542749
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/element-list = 1688259542613
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/index-all.html = 1688259542773
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/script.js = 1688259542777
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/index.html = 1688259542729
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/tag-search-index.js = 1688259542753
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/type-search-index.js = 1688259542749
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/search.js = 1688259542777
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/overview-tree.html = 1688259542729
+/home/caio-lelis/projetoOO/farmacia-maven/target/site/apidocs/stylesheet.css = 1688259542777
