@@ -1,9 +1,11 @@
 # Projeto Orientação a Objetos
 Projeto aplicativo de farmácia da disciplina orientação a objetos em Java ministrado pela professora Fabiana Mendes/FGA. 
 
-### Compilando no Ubuntu
-1. No diretório "farmacia-maven", digitar o comando "mvn clean install " e, logo após, digitar o comando "mvn compile".
-2. Se bem sucedido, compilar a classe view.Runner.
+### Compilando no Ubuntu e no Windows
+
+1. Certificar se tem o maven e o Mysql instalados na maquina, criar uma base de dados "farmacia_maven"
+2. No diretório "farmacia-maven", digitar o comando "mvn clean install " e, logo após, digitar o comando "mvn compile".
+3. Se bem sucedido, compilar a classe view.Runner.
 
 ### Mini Cenário 
 
