@@ -23,3 +23,4 @@ Marcia então seleciona a opção "Cadastrar" e cadastra o produto.
 Ela salva as alterações e o estoque do produto é atualizado na loja e no aplicativo.
 
 No final, Marcia fecha o aplicativo e tem a certeza de que seu estoque de produtos está atualizado e pronto para atender às necessidades dos clientes da loja.
+
